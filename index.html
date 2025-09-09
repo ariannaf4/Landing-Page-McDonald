@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McDonald's</title>
+    <link rel="icon" href="./src/48px_86952f326f.svg" type="image/png">
+    <link rel="stylesheet" href="estilos_generales.css">
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <header>
+        <div class="logo-h1">
+            <img src="./src/48px_86952f326f.svg" alt="Logo McDonald's">
+            <h1>McDonald's</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#presentacion">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#mision-vision">Misión y Visión</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <main>
+        <div class="secciones">
+            <section id="presentacion">
+                <div class="presentacion-flex">
+                    <div class="presentacion-texto">
+                        <h2>Bienvenido a McDonald's</h2>
+                        <p>McDonald’s es la cadena de restaurantes de comida rápida más reconocida a nivel mundial, fundada en 1940 en California, Estados Unidos. Hoy en día, cuenta con más de 38,000 locales en más de 100 países, siendo un referente en el sector gastronómico por su rapidez, accesibilidad y variedad.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="productos">
+                <div class="productos">
+                    <h2>Productos</h2>
+                    <ul>
+                        <li>Hamburguesas icónicas como la Big Mac y la Quarter Pounder.</li>
+                        <li>Papas fritas mundialmente reconocidas.</li>
+                        <li>Menús personalizados para diferentes mercados (McFlurry, McPollo, McCafé).</li>
+                        <li>Opciones saludables: ensaladas, frutas y bebidas bajas en calorías.</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="servicios">
+                    <div>
+                        <h2>Servicios</h2>
+                        <div class="container-servicios">
+                            <img src="./src/mg-an.png" alt="Barra de McDonald's" class="icono-mcdonalds">
+                            <ul>
+                                <li>Atención rápida y estandarizada en todos sus restaurantes.</li>
+                                <li>AutoMac (Drive Thru) para pedidos desde el automóvil.</li>
+                                <li>McDelivery con servicio de entrega a domicilio.</li>
+                                <li>McCafé: una línea especializada en café y repostería.</li>
+                                <li>Innovación digital mediante kioscos de autoservicio y aplicación móvil.</li>
+                            </ul>
+                        </div>
+                    </div>
+                <article>
+                    <p>McDonald’s no solo vende comida rápida, sino que ofrece experiencias accesibles, rápidas y adaptadas al gusto de cada cliente en todo el mundo.</p>
+                </article>
+            </section>
+            <section id="mision-vision">
+                <div>
+                    <h2>Misión</h2>
+                    <p>Hacer que los momentos deliciosos y agradables sean fáciles para todos.</p>
+                </div>
+                <div>
+                    <h2>Valores</h2>
+                    <p>La columna vertebral de nuestra marca es, y siempre ha sido, un compromiso con un conjunto de valores fundamentales que definen quiénes somos y cómo gestionamos nuestro negocio y nuestros restaurantes.</p>
+                </div>
+            </section>
+        </div>
+
+        <aside>
+            <h3>Nuestro producto más comprado</h3>
+            <P>McFlurry Oreo</P>
+            <img src="https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$ktXeRE1g/200/200/original?country=ec" alt="">
+        </aside>
+    </main>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 McDonald's. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/McDonaldsEcuador"><img src="./src/facebook.png" alt="Facebook"></a>
+            <a href="https://x.com/McDonalds_Ecu"><img src="./src/twitter.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/mcdonalds_ecu/?hl=es"><img src="./src/instagram.png" alt="Instagram"></a>
+        </div>
+    </footer>
+</body>
+</html>
